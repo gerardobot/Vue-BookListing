@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ title }}</h1>
+    <h1>Este es el {{ title }}</h1>
 
     <ul>
       <book-item v-for="book in books" :book="book"></book-item>
